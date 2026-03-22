@@ -1,6 +1,7 @@
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import { defineConfig } from 'eslint/config';
+import eslintConfigPrettier from 'eslint-config-prettier';
 
 export default defineConfig(
   // Ignorar archivos y carpetas
@@ -60,5 +61,6 @@ export default defineConfig(
       'no-console': 'off',
       'no-process-env': 'off',
     },
-  }
+  },
+  eslintConfigPrettier
 );
