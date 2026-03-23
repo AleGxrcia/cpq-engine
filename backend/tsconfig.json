@@ -18,6 +18,17 @@
     "declaration": true,
     "declarationMap": true,
 
+    // Alias Support
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@config/*": ["./src/config/*"],
+      "@modules/*": ["./src/modules/*"],
+      "@middleware/*": ["./src/middleware/*"],
+      "@domain/*": ["./src/domain/*"],
+      "@shared/*": ["./src/shared/*"],
+    },
+
     // Stricter Typechecking Options
     "strict": true,
     "noUncheckedIndexedAccess": true,
