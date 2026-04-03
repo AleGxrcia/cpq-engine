@@ -11,6 +11,8 @@ export default defineConfig(
       'node_modules/**',
       'coverage/**',
       '**/*.js',
+      '**/*.mjs',
+      '**/*.d.ts',
     ],
   },
   // Configuracion base y reglas comunes
