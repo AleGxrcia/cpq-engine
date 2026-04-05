@@ -10,7 +10,7 @@
     "moduleResolution": "nodenext",
     "target": "es2023",
     "lib": ["ES2023"],
-    "types": ["node"],
+    "types": ["node", "vitest/globals"],
     "resolveJsonModule": true,
 
     // Other Outputs
@@ -50,6 +50,6 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["src/**/*", "tests/**/*", "prisma.config.ts"],
+  "include": ["src/**/*", "tests/**/*"],
   "exclude": ["node_modules", "dist",],
 }
